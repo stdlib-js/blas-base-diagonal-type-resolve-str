@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/blas-base-diagonal-type-enum2str": "github:stdlib-js/blas-base-diagonal-type-enum2str#main",
-    "@stdlib/blas-base-diagonal-type-str2enum": "^0.1.0"
+    "@stdlib/blas-base-diagonal-type-str2enum": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.1",
