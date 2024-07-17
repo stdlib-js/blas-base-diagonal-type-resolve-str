@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-diagonal-type-resolve-str",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the diagonal type string associated with a supported BLAS diagonal type value.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/blas-base-diagonal-type-enum2str": "github:stdlib-js/blas-base-diagonal-type-enum2str#main",
-    "@stdlib/blas-base-diagonal-type-str2enum": "github:stdlib-js/blas-base-diagonal-type-str2enum#main"
+    "@stdlib/blas-base-diagonal-type-str2enum": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.1",
