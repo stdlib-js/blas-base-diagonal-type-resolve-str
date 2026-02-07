@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-resolve-str@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-diagonal-type-resolve-str/tags). For example,
+
+```javascript
 import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-resolve-str@v0.1.2-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ var v = resolve( 'beep' );
 <script type="module">
 
 import str2enum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-str2enum@esm/index.mjs';
-import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-resolve-str@v0.1.2-esm/index.mjs';
+import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-diagonal-type-resolve-str@esm/index.mjs';
 
 var v = resolve( str2enum( 'unit' ) );
 // returns 'unit'
